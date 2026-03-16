@@ -6,12 +6,15 @@
     box-sizing: border-box;
     padding: 24px 16px;
     border-radius: 16px;
+    text-align: center;
 }
 
 .card header{
     display: block;
     background-color: transparent;
     position: static;
+    padding: 0;
+    margin-bottom: 24px;
 }
 
 .card header p{
@@ -23,6 +26,7 @@
     font-size: 40px;
     font-weight: var(--title-weight);
     margin: 8px 0 0;
+
 }
 
 .card header span{

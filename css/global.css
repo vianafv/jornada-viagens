@@ -6,7 +6,7 @@
 }
 
 :root {
-  --primary-color: #bf0101;
+  --primary-color: #8F0101;
   --secondary-color: #b81515;
 
   --background-primary-color: #ffffff;
@@ -64,8 +64,26 @@ body{
   margin: 16px auto 32px ;
 }
 
+.button{
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  background-color: var(--secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+}
+
 @media screen and (min-width:768px) {
   .section-title h2{
     font-size: 32px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
   }
 }
