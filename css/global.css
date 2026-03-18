@@ -6,7 +6,7 @@
 }
 
 :root {
-  --primary-color: #bf0101;
+  --primary-color: #8F0101;
   --secondary-color: #b81515;
 
   --background-primary-color: #ffffff;
@@ -45,5 +45,46 @@ h1 {
 }
 
 body{
-  font-family:"Montserrat";;
+  font-family:"Montserrat";
+  color: var(--text-primary-color);
+}
+
+.section-title h2{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr{
+  height: 4px;
+  width: 180px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px ;
+}
+
+.button{
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  background-color: var(--secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+}
+
+@media screen and (min-width:768px) {
+  .section-title h2{
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
