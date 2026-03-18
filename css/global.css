@@ -74,6 +74,7 @@ body{
   border-radius: 16px;
   display: inline-block;
   text-decoration: none;
+  line-height: 64px;
 }
 
 @media screen and (min-width:768px) {
