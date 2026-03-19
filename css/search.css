@@ -1,0 +1,71 @@
+.search{
+    margin-top: 88px;
+}
+
+.search-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 32px auto;
+    width: 312px;
+}
+
+.search-cards article {
+    height: 200px;
+}
+
+
+.pacotes-nacionais {
+    background-image: url(../img/pacotes-nacionais.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.pacotes-internacionais {
+    background-image: url(../img/pacotes-internacionas.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.pacotes-transfer {
+    background-image: url(../img/pacotes-transfer.jpg); 
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.pacotes-seguro-viagem {
+    background-image: url(../img/seguro-viagem.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width:768px) {
+    .search-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 32px auto 88px
+    }
+    .search-cards article {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .search-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 32px auto 88px
+    }
+    .search-cards article {
+        width: 45%;
+    }
+}
