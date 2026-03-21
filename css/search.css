@@ -5,6 +5,7 @@
 .search-cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 24px;
     margin: 32px auto;
     width: 312px;
@@ -59,13 +60,9 @@
 
 @media screen and (min-width:1024px) {
     .search-cards{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        margin: 32px auto 88px
+
     }
     .search-cards article {
-        width: 45%;
+        width: 16%;
     }
 }
